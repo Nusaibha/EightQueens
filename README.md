@@ -21,10 +21,8 @@ Description: On an 8x8 chessboard, eight queens are placed on the board under th
 
 5) FancyEightQueens.cpp:
    This version features a graphical chessboard printed in the console using ASCII characters. It uses a 1D array and iterative backtracking to find valid queen placements, and
-   visually renders each solution with custom-designed white and black queens on alternating colored squares. The board is displayed using multi-line character boxes to resemble a
+   visually renders each solution with custom designed white and black queens on alternating colored squares. The board is displayed using multi-line character boxes to resemble a
    real 8×8 chessboard, offering a visually rich and satisfying output experience directly in the terminal.
 
 6) nQueens.cpp:
-   This versoon solves the N-Queens problem for values of n from 1 to 12. It uses a dynamic 1D array and iterative backtracking (with a safety check function) to compute the total
-   number of valid queen arrangements on an n × n chessboard. For each board size, it prints the total number of conflict-free solutions. This implementation is efficient, avoids
-   recursion, and dynamically manages memory for each n. 
+   This versoon solves the N-Queens problem for values of n from 1 to 12. It uses a dynamic 1D array and iterative backtracking to compute the total number of valid queen arrangements on an n × n chessboard. For each board size, it prints the total number of conflict-free solutions. This implementation is efficient, avoids recursion, and dynamically manages memory for each n. 
